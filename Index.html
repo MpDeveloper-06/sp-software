@@ -2,247 +2,273 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sp Car Detailing</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="swiper-bundle.min.css">
-  <link rel="stylesheet" href="swiper.css">
-  <link rel="stylesheet" href="css2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-  <nav class="nav">
-    <div class="container">
-      <!-- <div class="logo">
-        <a href="#"><img src="img/freepik-duotone-dramasphere-dramatic-arts-school-logo-20250410080052EhgP.png"
-            alt=""></a>
-      </div> -->
-      <div id="mainListDiv" class="main_list">
-        <ul class="navlinks">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <span class="navTrigger">
-        <i></i>
-        <i></i>
-        <i></i>
-      </span>
-    </div>
-  </nav>
-  <section class="creative-showcase--slider">
-    <div class="banner-horizental">
-      <div class="swiper swiper-container-h">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car1.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading" data-swiper-parallax="-2000"> <a href="#"><span>Retouch Photo</span></a>
-                    </h1>
-                  </div>
-                </div>
-              </div>
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#" class="brand">Brand</a>
+            <div></div>
+            <div class="menu" id="menu">
+                <ul class="menu-inner">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Service</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+                </ul>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car2.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading"> <a href="#">
-                        <span data-swiper-parallax="-2000">Earthmade</span>
-                        <br>
-                        <span data-swiper-parallax="-3000">Aroma box</span>
-                      </a> </h1>
-                  </div>
-                </div>
-              </div>
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-light" style="background-image: url(img/car3.jpg);"
-              data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading"> <a href="#">
-                        <span data-swiper-parallax="-2000">Access Bank</span>
-                        <br>
-                        <span data-swiper-parallax="-3000">Rebranding</span>
-                      </a> </h1>
-                  </div>
+        </nav>
+    </header>
+    <div class="slider-container">
+        <div class="slider-control left inactive"></div>
+        <div class="slider-control right"></div>
+        <ul class="slider-pagi"></ul>
+        <div class="slider">
+            <div class="slide slide-0 active">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                    <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                    </svg>
+                    <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 1</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil
+                            animi facere, doloremque voluptate tempore quia.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car4.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading" data-swiper-parallax="-2000"> <a href="#"><span>The joy of
-                          music</span></a> </h1>
-                  </div>
+            <div class="slide slide-1 ">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                    <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                    </svg>
+                    <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 2</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil
+                            animi facere, doloremque voluptate tempore quia.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car5.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading" data-swiper-parallax="-2000"> <a href="#"><span>Blue Adobe MAX</span></a>
-                    </h1>
-                  </div>
+            <div class="slide slide-2">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                    <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                    </svg>
+                    <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 3</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil
+                            animi facere, doloremque voluptate tempore quia.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car6.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading" data-swiper-parallax="-2000"> <a href="#"><span>Carved Wood</span></a>
-                    </h1>
-                  </div>
+            <div class="slide slide-3">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                    <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                    </svg>
+                    <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 4</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil
+                            animi facere, doloremque voluptate tempore quia.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slide-bg overlay-dark" style="background-image: url(img/car2.jpg);" data-swiper-parallax="1152">
-              <div class="slide-container">
-                <div class="slide-row">
-                  <div class="slider-content">
-                    <h6 class="slide-subtitle" data-swiper-parallax="-1000">© Creative Salahu</h6>
-                    <h1 class="slide-heading"> <a href="#">
-                        <span data-swiper-parallax="-2000">Earthmade</span>
-                        <br>
-                        <span data-swiper-parallax="-3000">Aroma box</span>
-                      </a> </h1>
-                  </div>
+            <div class="slide slide-4">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                    <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                        <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                    </svg>
+                    <div class="slide__text">
+                        <h2 class="slide__text-heading">Project name 4</h2>
+                        <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                            veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil
+                            animi facere, doloremque voluptate tempore quia.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        <div class="swiper-pagination">
-        </div>
-      </div>
     </div>
-  </section>
-  <br>
-  <main>
-    <div class="content">
-      <h1>About Us</h1>
-      <p>
-        Welcome to La Pâtisserie Belle, where every bite is a journey into the
-        exquisite world of finely crafted pastries. Our patisserie is
-        dedicated to bringing you the most delicious and beautifully designed
-        pastries that will delight your senses and elevate your taste
-        experience. Nestled in the heart of the city, our patisserie is a
-        haven for those who appreciate the finer things in life.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit officiis blanditiis ab numquam voluptatem
-        corporis ad rem, nesciunt repellendus vitae, iure molestias. Saepe aliquam, pariatur quas sequi sed deleniti?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic at aliquam nesciunt fuga accusantium sint rem! Ut
-        quasi provident sapiente libero temporibus? Sequi illum dolorem dolore quam ad tempore facere!
-      </p>
-      <button class="btn">Explore More</button>
-    </div>
-
-    <div class="stack">
-      <div class="card">
-        <img src="img/car1.jpg" alt="" />
-      </div>
-      <div class="card">
-        <img src="img/car2.jpg" alt="" />
-      </div>
-      <div class="card">
-        <img src="img/car3.jpg" alt="" />
-      </div>
-      <div class="card">
-        <img src="img/car4.jpg" alt="" />
-      </div>
-      <div class="card">
-        <img src="img/car8.jpg" alt="" />
-      </div>
-      <div class="card">
-        <img src="img/car9.jpg" alt="" />
-      </div>
-    </div>
-  </main>
-
-  <!-- Jquery needed -->
-  <script src="jquery-3.7.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="swiper-bundle.min.js"></script>
-  <script src="swiper.js"></script>
-  <script>
-    $(window).scroll(function () {
-      if ($(document).scrollTop() > 50) {
-        $('.nav').addClass('affix');
-      } else {
-        $('.nav').removeClass('affix');
-      }
-    });
-
-    $('.navTrigger').click(function () {
-      $(this).toggleClass('active');
-      console.log("Clicked menu");
-      $("#mainListDiv").toggleClass("show_list");
-      $("#mainListDiv").fadeIn();
-
-    });
-
-
-    const stack = document.querySelector(".stack");
-    const cards = Array.from(stack.children)
-      .reverse()
-      .filter((child) => child.classList.contains("card"));
-
-    cards.forEach((card) => stack.appendChild(card));
-    setInterval(function moveCard() {
-      const lastCard = stack.lastElementChild;
-      if (lastCard.classList.contains("card")) {
-        lastCard.classList.add("swap");
-
-        setTimeout(() => {
-          lastCard.classList.remove("swap");
-          stack.insertBefore(lastCard, stack.firstElementChild);
-        }, 1200);
-      }
-    }, 1000)
-
-
-    let autoplayInterval = setInterval(moveCard, 4000);
-    setInterval(stack.addEventListener("click", function (e) {
-      const card = e.target.closest(".card");
-      if (card && card === stack.lastElementChild) {
-        card.classList.add("swap");
-
-        setTimeout(() => {
-          card.classList.remove("swap");
-          stack.insertBefore(card, stack.firstElementChild);
-        }, 1200);
-      }
-    }), 1000)
-
-
-  </script>
+    <div style="height: 1000px;"></div>
 </body>
 
 </html>
+<script src="jquery-3.7.1.js"></script>
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.header').addClass('affix');
+            $('.menu-link').css('color', 'black');
+        } else {
+            $('.header').removeClass('affix');
+            $('.header').css('transition', 'all 0.45s ease-in-out');
+            $('.menu-link').css('color', 'white');
+        }
+    });
+
+    const navbarMenu = document.getElementById("menu");
+    const burgerMenu = document.getElementById("burger");
+
+    // Open Close Navbar Menu on Click Burger
+    if (burgerMenu && navbarMenu) {
+        burgerMenu.addEventListener("click", () => {
+            burgerMenu.classList.toggle("is-active");
+            navbarMenu.classList.toggle("is-active");
+        });
+    }
+
+    // Close Navbar Menu on Click Menu Links
+    document.querySelectorAll(".menu-link").forEach((link) => {
+        link.addEventListener("click", () => {
+            burgerMenu.classList.remove("is-active");
+            navbarMenu.classList.remove("is-active");
+        });
+    });
+
+
+    $(document).ready(function () {
+
+        var $slider = $(".slider"),
+            $slideBGs = $(".slide__bg"),
+            diff = 0,
+            curSlide = 0,
+            numOfSlides = $(".slide").length - 1,
+            animating = false,
+            animTime = 500,
+            autoSlideTimeout,
+            autoSlideDelay = 6000,
+            $pagination = $(".slider-pagi");
+
+        function createBullets() {
+            for (var i = 0; i < numOfSlides + 1; i++) {
+                var $li = $("<li class='slider-pagi__elem'></li>");
+                $li.addClass("slider-pagi__elem-" + i).data("page", i);
+                if (!i) $li.addClass("active");
+                $pagination.append($li);
+            }
+        };
+
+        createBullets();
+
+        function manageControls() {
+            $(".slider-control").removeClass("inactive");
+            if (!curSlide) $(".slider-control.left").addClass("inactive");
+            if (curSlide === numOfSlides) $(".slider-control.right").addClass("inactive");
+        };
+
+        function autoSlide() {
+            autoSlideTimeout = setTimeout(function () {
+                curSlide++;
+                if (curSlide > numOfSlides) curSlide = 0;
+                changeSlides();
+            }, autoSlideDelay);
+        };
+
+        autoSlide();
+
+        function changeSlides(instant) {
+            if (!instant) {
+                animating = true;
+                manageControls();
+                $slider.addClass("animating");
+                $slider.css("top");
+                $(".slide").removeClass("active");
+                $(".slide-" + curSlide).addClass("active");
+                setTimeout(function () {
+                    $slider.removeClass("animating");
+                    animating = false;
+                }, animTime);
+            }
+            window.clearTimeout(autoSlideTimeout);
+            $(".slider-pagi__elem").removeClass("active");
+            $(".slider-pagi__elem-" + curSlide).addClass("active");
+            $slider.css("transform", "translate3d(" + -curSlide * 100 + "%,0,0)");
+            $slideBGs.css("transform", "translate3d(" + curSlide * 50 + "%,0,0)");
+            diff = 0;
+            autoSlide();
+        }
+
+        function navigateLeft() {
+            if (animating) return;
+            if (curSlide > 0) curSlide--;
+            changeSlides();
+        }
+
+        function navigateRight() {
+            if (animating) return;
+            if (curSlide < numOfSlides) curSlide++;
+            changeSlides();
+        }
+
+        $(document).on("mousedown touchstart", ".slider", function (e) {
+            if (animating) return;
+            window.clearTimeout(autoSlideTimeout);
+            var startX = e.pageX || e.originalEvent.touches[0].pageX,
+                winW = $(window).width();
+            diff = 0;
+
+            $(document).on("mousemove touchmove", function (e) {
+                var x = e.pageX || e.originalEvent.touches[0].pageX;
+                diff = (startX - x) / winW * 70;
+                if ((!curSlide && diff < 0) || (curSlide === numOfSlides && diff > 0)) diff /= 2;
+                $slider.css("transform", "translate3d(" + (-curSlide * 100 - diff) + "%,0,0)");
+                $slideBGs.css("transform", "translate3d(" + (curSlide * 50 + diff / 2) + "%,0,0)");
+            });
+        });
+
+        $(document).on("mouseup touchend", function (e) {
+            $(document).off("mousemove touchmove");
+            if (animating) return;
+            if (!diff) {
+                changeSlides(true);
+                return;
+            }
+            if (diff > -8 && diff < 8) {
+                changeSlides();
+                return;
+            }
+            if (diff <= -8) {
+                navigateLeft();
+            }
+            if (diff >= 8) {
+                navigateRight();
+            }
+        });
+
+        $(document).on("click", ".slider-control", function () {
+            if ($(this).hasClass("left")) {
+                navigateLeft();
+            } else {
+                navigateRight();
+            }
+        });
+
+        $(document).on("click", ".slider-pagi__elem", function () {
+            curSlide = $(this).data("page");
+            changeSlides();
+        });
+
+    });
+</script>
