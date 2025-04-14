@@ -1800,7 +1800,7 @@ a.tab-label.active-btn {
     color: #454545;
   }  
   .top-nav, .nav-text, .top-nav li a, .background-white .top-nav li a {
-    background: none repeat scroll 0 0 #454545;
+    background: none repeat scroll 0 0 white;
   }
   .logo-menu {
     display: none;
