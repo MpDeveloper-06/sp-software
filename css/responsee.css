@@ -146,7 +146,7 @@ nav {
   display:none;
 }
 .nav-text:after,.nav-text:before,.nav-text span {
-  background-color:#fff;
+  background-color:yellow;
   border-radius:3px;
   content:'';
   display:block;
