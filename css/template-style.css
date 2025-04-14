@@ -1793,7 +1793,7 @@ a.tab-label.active-btn {
     margin-right: 0;
   }
   .fixed {
-    position: relative;
+    position: fixed;
     z-index: 10;
   }
   .fixed .nav-text::after {
